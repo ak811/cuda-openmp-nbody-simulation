@@ -229,25 +229,25 @@ Observations:
 - OpenMP provides close to an order of magnitude speedup over the sequential baseline at the largest \(N\) in this table.
 - CUDA achieves the best performance and the smallest constant factor.
 
-### Performance plots (placeholders)
+### Performance s (placeholders)
 
-You can generate and save performance plots to the `plots/` directory and they will automatically show up here:
+You can generate and save performance s to the `s/` directory and they will automatically show up here:
 
 - OpenMP scaling with threads:
 
   ```text
-  plots/omp_scaling.png
+  outputs/plots/omp_scaling.png
   ```
 
-  ![OpenMP scaling vs threads](plots/omp_scaling.png)
+  ![OpenMP scaling vs threads](outputs/plots/omp_scaling.png)
 
 - Runtime vs number of bodies for all implementations:
 
   ```text
-  plots/perf_vs_N.png
+  outputs/plots/perf_vs_N.png
   ```
 
-  ![Execution time vs N](plots/perf_vs_N.png)
+  ![Execution time vs N](outputs/plots/perf_vs_N.png)
 
 ### Larger CUDA runs
 
